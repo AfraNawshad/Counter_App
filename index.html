@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Counter App</h1>
+            <button id="theme-toggle">Toggle Theme</button>
+        </header>
+
+        <div class="counter-display" id="counter">0</div>
+
+        <div class="controls">
+            <button id="decrement">-</button>
+            <button id="increment">+</button>
+        </div>
+
+        <div class="add-section">
+            <input type="number" id="custom-value" placeholder="Enter number">
+            <button id="add-btn">Add</button>
+        </div>
+
+        <div class="action-buttons">
+            <button id="save-btn">Save</button>
+            <button id="reset-btn">Reset</button>
+        </div>
+
+        <div class="saved-container">
+            <h3>Saved Counts</h3>
+            <ul id="saved-list"></ul>
+            <button id="clear-all" class="danger">Clear All</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
